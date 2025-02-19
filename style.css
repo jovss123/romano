@@ -1,0 +1,49 @@
+.navbar {
+    background-color:rgb(0, 52, 83);
+    height: 10vh;
+}
+
+.navbar .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    padding: 12px 30px;
+    font-weight: 900;
+    font-size: 18px;
+
+}
+
+.btn-hello {
+    background-color: rgb(14, 148, 66);
+    border: 2px solid black;
+    border-radius: 60px;
+    transition: all ease-in 0.5s;
+}
+
+.btn-hello:hover {
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(18, 0, 122);
+}
+
+.hatdog {
+    width: 5%;
+}
+
+.banner {
+    background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(40,185,10,1) 35%, rgba(0,212,255,1) 100%), url(set.jpg);
+    height: 90vh;
+    background-size: cover;
+}
+
+.h1 {
+    font-size: 45px;
+    color: rgb(192, 18, 18);
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.banner p {
+    color: aliceblue;
+    font-size: 20px;
+}
